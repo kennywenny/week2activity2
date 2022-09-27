@@ -38,11 +38,17 @@ header {
   .card {
     width: 50%;
   }
+  header {
+    background-color: pink;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .card {
     width: 100%;
+  }
+  header {
+    background-color: aquamarine;
   }
 }
 /* TODO: Use media query to change the width of the cards so they split into two columns at 992px or smaller*/
